@@ -1,50 +1,308 @@
 {
     "intents": [
         {
-            "tag": "greeting",
+            "tag": "Ofrecer beneficio a la UPB",
             "patterns": [
-                "Hi there",
-                "How are you",
-                "Is anyone there?",
-                "Hey",
-                "Hola",
-                "Hello",
-                "Good day"
+                "quisiera proponer un beneficio/empresa para la seupb advantage/card"
             ],
             "responses": [
-                "Hi there, how can I help?"
+<<<<<<< HEAD
+                "Muchas gracias por tu interés. Por favor, escribe a cualquiera de los siguientes contactos, ambos están encargados del proyecto: Adriana Uribe - 70158555 y Juan Carlos Omoya - 68212608"
+=======
+                "Muchas gracias por tu interés. Por favor, escribe a cualquiera de los siguientes contactos, ambos están encargados del proyecto ;)
+Adriana Uribe - 70158555
+Juan Carlos Omoya - 68212608"
+>>>>>>> cbb41f5303d1dbe90805f07daf8f0c1ea53b777f
             ],
             "context": [
                 ""
             ]
         },
         {
-            "tag": "goodbye",
+            "tag": "Cosas perdidas en fiestas o eventos",
             "patterns": [
-                "Bye",
-                "See you later",
-                "Goodbye",
-                "Nice chatting to you, bye",
-                "Till next time"
+                "Perdi unas cosas en fiestas o eventos pasados"
             ],
             "responses": [
-                "Bye! Have a nice day"
+                "Por favor, te pedimos estar pendiente de nuestras redes sociales:@SEUPBLAPAZ, ya que publicaremos sobre los objetos encontrados ;)"
             ],
             "context": [
                 ""
             ]
         },
         {
-            "tag": "thanks",
+            "tag": "Requisitos de becas",
             "patterns": [
-                "Thanks",
-                "Thank you",
-                "That's helpful",
-                "Awesome, thanks",
-                "Thanks for helping me"
+                "quisiera saber como puedo activar mi beca"
             ],
             "responses": [
-                "Happy to help!"
+                "Para activar tu beca o realizar cualquier tipo de seguimiento, puedes escribir al siguiente contacto: Edwin Catacora - 63061959"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cobertura seupb card",
+            "patterns": [
+                "La seupb card mecubre x fiesta?"
+            ],
+            "responses": [
+                "La SEUPB CARD tiene cobertura de la siguiente fiesta SEUPB Preste. Te adjunto el manual de marcas para revisarlo ;) https://drive.google.com/drive/folders/1ui_iIU_48eXQkKGUPVCh1FONX2n32V9N"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fiestas de la U mesas, manillas, precios, etc",
+            "patterns": [
+                "que hay en garden?",
+                "que cubre garden?" ,
+                "cuando es la próxima fiesta en garden?"
+            ],
+            "responses": [
+                "La siguiente fiesta de la SEUPB es el Preste, con un coste de 20Bs. Upbinos, 30Bs. externos y con venta en puerta. También puedes tener una mesa por 250 Bs. en Savage, y el after será en Fabula; desde las 17:00 hasta las 22:00"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Obtener la SEUPB Advantage",
+            "patterns": [
+                "quiero pedir mi seupb advatange"
+            ],
+            "responses": [
+                "Puedes solicitar tu SEUPB ADVANTAGE al correo seupbadvantage2022@gmail.com o a los siguientes contactos: Mauricio Vargas - 78761916 o Fernanda Martínez - 70576881"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Contacto de los vendedores de entradas a fiestas",
+            "patterns": [
+                "quienes estan vendiendo manillas?"
+            ],
+            "responses": [
+                "Las manillas cuestan 20 Bs. en preventa y 30 en puerta. Para comprar en preventa, puedes coordinar cualquiera de los siguientes contactos: Sergio Velarde - 68120681 o Valentina Siemon - 60549891 o Aracely Jimenez - 78833396 o Renata Arenas - 76585671"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "promocionar o ayudar con campanias o artes",
+            "patterns": [
+                "si pudieran repostear este arte para..."
+            ],
+            "responses": [
+                "Muchas gracias por escribir. Por favor, contáctate con estos números para coordinar las publicaciones: Valentina Zambrana - 79850797 o Galia Villarpando - 75830188"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "beneficios seupb card y advantage",
+            "patterns": [
+                "¿Qué beneficios tiene la seupb advantage?",
+                "¿Qué beneficios tiene la seupb card?"
+            ],
+            "responses": [
+                "SEUPB ADVNTAGE => https://drive.google.com/drive/folders/1ui_iIU_48eXQkKGUPVCh1FONX2n32V9N  \nSEUPB CARD => https://drive.google.com/drive/folders/1ui_iIU_48eXQkKGUPVCh1FONX2n32V9N"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "psicologo upb",
+            "patterns": [
+                "Tienen el contacto del psicologo de la upb?"
+            ],
+            "responses": [
+                "Puedes contactarte con: \nIgnacio Liévana - 69785810"
+            ],
+            "context": [
+                ""
+            ]
+        },{
+            "tag": "Actividades Seupb",
+            "patterns": [
+                "Siguientes actividades de la SEUPB"
+            ],
+            "responses": [
+                "Proximamente tendremos el siguiente Taller/Webinar con la secretaria de Académicas.Puedes inscribirte a través de este enlace: ..."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Puntuación UPBMATCH",
+            "patterns": [
+                "¿Cuál es la puntuación de UPBMATCH?"
+            ],
+            "responses": [
+                "https://www.instagram.com/p/Cfb2WKMOfKj/"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Siguientes actividades en la U",
+            "patterns": [
+                "que actividades tiene la u este mes?"
+            ],
+            "responses": [
+                "En agosto se tiene: \n-Campeonato de Ping Pong \n-Campeonato de chachacha"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "SIguientes actividades del UPBMatch ",
+            "patterns": [
+                "Cual es la siguiente actividad del upb match?"
+            ],
+            "responses": [
+                "La siguiente actividad es Ping Pong y después tendremos Fútbol, contactate con tu capitanía para participar ;)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Contacto de capitanía",
+            "patterns": [
+                "Como puedo participar en un evento del upbmatch?"
+            ],
+            "responses": [
+                "Las actividades del UPBMatch son por carrera o escuela. Contáctate con tu capitán para unirte al equipo: \n*Paola Lozada DTI - \n*Rafael Agramont EIE - \n*Lucia Soto MARKETING - \n*Camila Céspedes DISEÑO - \n*Luis Soria MEE - \n*Victoria Galindo COMUNICACIÓN -  \n*Camila Aranda FINANCIERA - \n*Camila Kaegui CSJ -  \n*Fabián Romero ICO -  \n*Rodrigo Molina ADMI -"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Contactos de DAAE",
+            "patterns": [
+                "Tienen el contacto de daae?"
+            ],
+            "responses": [
+                "DAAE tiene diferentes encargados, te enviaremos el contacto de todos ellos: \n*Carmen Gonzáles REGISTROS Y BIENESTAR ESTUDIANTIL - 63055157 \n*Edwin Catacora ORIENTACIÓN Y BECAS - 63061959 \n*Paola López BIENESTAR ESTUDIANTIL - 77520037 \n*Ignacio Liévana BIENESTAR ESTUDIANTIL - 69785810 \n*Natalia Decormis CULTURA Y DEPORTES - 77111848 \n*Fabiola Arteaga DOCUMENTOS - 62595450 \n*Andrea Mena SALUD - 76735334"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Voluntariados UPB",
+            "patterns": [
+                "Quisiera formar parte de un voluntariado en la UPB"
+            ],
+            "responses": [
+                "Paola López se encarga de realizar los voluntariados en la universidad junto a la Secretaria de Responsabilidad Social. ¡Escríbeles para saber más! \n*Paola López - 77520037 \n*Luciana Villaba - 79689488 \n*Rachel Montecinos - 60117633"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Clubes UPB",
+            "patterns": [
+                "como puedo unirme a un club de la UPB?"
+            ],
+            "responses": [
+                "Paola López se encarga de organizar todos los clubes en la universidad y está muy receptiva a nuevos participantes. ¡Escríbele para saber más! \n*Paola López - 77520037"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "precios",
+            "patterns": [
+                "Cuánto cuesta la matrícula y el crédito?"
+            ],
+            "responses": [
+                "La matrícula actualmente cuesta Bs. 2048 y el credito Bs. 640"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Egresado",
+            "patterns": [
+                "Ya egrese que hago ahora?"
+            ],
+            "responses": [
+                "¡Feliciades! Cuando egresas, debes elegir una modalidad de graduación (Excelencia, Proyecto de Grado, Tesis, Trabajo Dirigido, Examen de Grado) y tomar la materia de Seminario de Grado. Los siguientes pasos varían según la modalidad; pero puedes preguntarle a tu jefe de carrera cómo proceder"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Pasantias",
+            "patterns": [
+                "Cuanto dura una pasantia y como empiezo el proceso"
+            ],
+            "responses": [
+                "Las pasantías deben durar mínimamente 120 horas. Para comenzarlas, debes acudir con tu jefe de carrera, y llevar tu Curriculum UPB (crealo en upb.net) y los siguientes formularios llenos: adjuntar formularios en Carpeta Para más información, puedes visitar la sección de trámites en upb.net"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Contacto de decanatura",
+            "patterns": [
+                "Quisiera contactar con la decanatura de FIA/FACED"
+            ],
+            "responses": [
+                "Te enviaré el contacto de la decanatura de FIA y FACED: \n*Tommy Pozo DECANO FIA - 73526290 \n*Alejandro Vargas DECANO FACED - 76736347"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Contactos de SEUPB ",
+            "patterns": [
+                "Quisiera contactar con alguien de la SEUPB"
+            ],
+            "responses": [
+                "la SEUPB tiene diferentes encargados, te enviaremos el contacto de todos ellos: \n*Sergio Velarde EVENTOS - 68120681 \n*Valentina Zambrana SOCIAL MEDIA - 79850797 \n*Abril Ando ACADÉMICAS - 70134868 \n*Mikaela Zambrana DEPORTES - 71261518 \n*Mateo Prieto CULTURA - 65165566 \n*Adriana Uribe INTERCAMPUS - 70158555 \n*Abril Virreira HACIENDA - 74030475 \n*Luciana Villalba RESPONSABILIDAD SOCIAL - 79689488 \n*Mauricio Vargas TECNOLOGÍA - 69785810"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gracias",
+            "patterns": [
+                "Gracias"
+            ],
+            "responses": [
+                "¡Gracias a tí por confiar en mí!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chukihcukic chuki",
+            "patterns": [
+                "chukihcukic chuki"
+            ],
+            "responses": [
+                "Ups, no estoy en condiciones de responder eso :(. ¿Podrías repetirlo? o Escribe AYUDA para saber mas sobre mí"
             ],
             "context": [
                 ""
@@ -54,7 +312,31 @@
             "tag": "noanswer",
             "patterns": [],
             "responses": [
-                "Sorry, can't understand you"
+                "Disculpa No entiendo lo que dices. ¿Podrías repetirlo? o Escribe AYUDA para saber mas sobre mí"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Saludo",
+            "patterns": [
+                "Hola"
+            ],
+            "responses": [
+                "¡Hola, soy el SEUPBot! ¿Cómo te puedo ayudar? \nPorfavor escribe AYUDA para ver mis funciones de chatbot"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "AYUDA",
+            "patterns": [
+                "AYUDA"
+            ],
+            "responses": [
+                "Porfavor si encesitas saber algo escribe cualquiera de las preguntas iguiente \nPuedo ayudarte con: \n*quisiera proponer un beneficio/empresa para la seupb advantage/card \n*Perdi unas cosas en fiestas o eventos pasados \n*quisiera saber como puedo activar mi beca \n*quisiera saber como puedo activar mi beca \n*la seupb card mecubre x fiesta? \n*que hay en garden? \n*que cubre? \n*cuando es la próxima fiesta? \n*quiero pedir mi seupb advatange  \n*quienes estan vendiendo manillas? \n*si pudieran repostear este arte es para ... \n*¿Qué beneficios tiene la seupb advantage? \n*¿Qué beneficios tiene la seupb card? \n*Tienen el contacto del psicologo de la u \n*Siguientes actividades de la SEUPB \n*Cual es la puntuación del UPBMatch \n*que actividades tiene la u este mes \n*Cual es la siguiente actividad del upb match \n*Como puedo participar en un evento del upbmatch \n*Tienen el contacto de daae \n*Quisiera formar parte de un voluntariado \n*como puedo unirme a un club \n*Cuánto cuesta la matrícula y el crédito \n*Ya egrese que hago ahora \n*Cuanto dura una pasantia y como empiezo el proceso \n*Quisiera contactar con la decanatura de FIA/FACED \n*Quisiera contactar con alguien de la SEUPB \n*AYUDA"
             ],
             "context": [
                 ""
